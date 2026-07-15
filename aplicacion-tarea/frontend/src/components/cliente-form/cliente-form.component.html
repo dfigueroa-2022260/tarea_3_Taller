@@ -1,0 +1,22 @@
+<form class="formulario" (ngSubmit)="agregarCliente()">
+  <h2>Agregar cliente</h2>
+
+  <div class="campo">
+    <label for="nombre">Nombre</label>
+    <input id="nombre" type="text" [(ngModel)]="nuevoCliente.nombre_cliente" name="nombre_cliente" />
+  </div>
+
+  <div class="campo">
+    <label for="direccion">Dirección</label>
+    <input id="direccion" type="text" [(ngModel)]="nuevoCliente.direccion_cliente" name="direccion_cliente" />
+  </div>
+
+  <div class="campo">
+    <label for="telefono">Teléfono</label>
+    <input id="telefono" type="text" [(ngModel)]="nuevoCliente.telefono" name="telefono" />
+  </div>
+
+  <button type="submit">Agregar</button>
+
+  <p class="error" *ngIf="mensajeError">{{ mensajeError }}</p>
+</form>

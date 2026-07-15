@@ -1,0 +1,14 @@
+[
+  {
+    "codigo_cliente": 1,
+    "nombre_cliente": "Juan Pérez",
+    "direccion_cliente": "5ta avenida 10-20, Zona 1",
+    "telefono": "55512345"
+  },
+  {
+    "codigo_cliente": 2,
+    "nombre_cliente": "María López",
+    "direccion_cliente": "3ra calle 4-56, Zona 10",
+    "telefono": "55598765"
+  }
+]
